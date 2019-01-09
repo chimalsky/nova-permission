@@ -23,6 +23,8 @@ class Role extends Resource
      */
     public static $model = \Spatie\Permission\Models\Role::class;
 
+    public static $foobar = 'foobar;'
+
     /**
      * The single value that should be used to represent the resource when being displayed.
      *
